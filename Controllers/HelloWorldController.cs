@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Text.Encodings.Web;
 
 namespace MyFirstMVCApp.Controllers
 {
@@ -21,5 +19,5 @@ namespace MyFirstMVCApp.Controllers
             ViewData["ID"] = ID;
             return View();
         }
-    }   
+    }
 }

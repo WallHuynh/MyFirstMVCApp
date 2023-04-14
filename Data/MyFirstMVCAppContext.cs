@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using MyFirstMVCApp.Models;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace MyFirstMVCApp.Data
 {
     public class MyFirstMVCAppContext : DbContext
     {
-        public MyFirstMVCAppContext (DbContextOptions<MyFirstMVCAppContext> options)
+        public MyFirstMVCAppContext(DbContextOptions<MyFirstMVCAppContext> options)
             : base(options)
         {
         }
